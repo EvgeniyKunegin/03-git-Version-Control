@@ -37,3 +37,28 @@ git push
 
 -----------------------------------------------------------------------------
 
+EXERCISE 3: Feature branch
+
+Create a feature branch and change following:
+
+- Upgrade the logstash-logback-encoder version to 6.6
+- Add image to the index.html file (url: https://www.careeraddict.com/uploads/article/58721/illustration-group-people-team-meeting.jpg)
+You are done with the changes. So:
+
+- Check your changes using "git diff" and
+- Commit them if everything is correct.
+Note: There is a standard in your team to name commits with descriptive text.
+
+- Push your changes to your remote repository.
+
+Changed index.html 
+get-diff
+
+     <h1>Team member roles</h1>
+-    <!-- add image here  <img src="" width="" /> -->
++    <!-- add image here  <img src="" width="" addad /> -->
+        <img src="https://www.careeraddict.com/uploads/article/58721/illustration-group-people-team-meeting.jpg"  width="" />
+
+git add .
+git commit -m "Add img to index.html"
+git push
